@@ -110,7 +110,7 @@ const Concept = () => {
             <p className="text-[18px] absolute top-36 left-4 leading-[23px] font-helvetica font-bold text-white">
               Nomination process
             </p>
-            <p className="text-[14px] pt-2 pr-[25%] leading-[20px]  font-normal font-helvetica">
+            <p className="text-[14px] pr-[25%] leading-[20px]  font-normal font-helvetica">
               our preview show 2024 to be staged at a prominent kolkata venue...{" "}
               <span className="underline">view more</span>
             </p>

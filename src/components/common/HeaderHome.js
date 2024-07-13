@@ -8,6 +8,7 @@ import {
   FaLinkedinIn,
   FaPinterest,
   FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -160,14 +161,14 @@ const HeaderHome = () => {
           </ul>
         </div>
 
-        <div className="navbar-end hidden  md:flex lg:flex xl:flex 2xl:flex ">
+        {/* <div className="navbar-end hidden  md:flex lg:flex xl:flex 2xl:flex ">
           <Link
             href="/login"
             className=" bg-buttonCustomColor rounded-[1000px]  px-[36px] py-[12px] leading-[24px] text-white font-poppins text-[18px]"
           >
             Login
           </Link>
-        </div>
+        </div> */}
       </div>
 
       <div
@@ -198,13 +199,22 @@ const HeaderHome = () => {
               </Link>
             </div>
           </div> */}
-          <div className="flex space-x-[10px] text-white absolute bottom-[40px] *:text-[24px] *:cursor-pointer justify-center ">
-            <CiFacebook />
-            <FaLinkedinIn />
-            <FaPinterest />
-            <FaXTwitter />
-            <FaWhatsapp />
-            <FaInstagram />
+          <div className="flex space-x-[10px] text-white pt-[39px] text-[24px] justify-center ">
+            
+            <a href="https://www.facebook.com/durgapujamassart/" passHref={true} target={"_blank"}rel={"noreferrer"}>
+              <CiFacebook />
+            </a>
+            
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fdurgapujaart" passHref={true} target={"_blank"}rel={"noreferrer"}>
+              <FaXTwitter />
+            </a>
+            
+            <a href="https://www.instagram.com/durgapujamassart/" passHref={true} target={"_blank"}rel={"noreferrer"}>
+              <FaInstagram />
+            </a>
+            <a href="https://www.youtube.com/channel/UC6juIMK3-WVjIAljEmTw8eA" passHref={true} target={"_blank"}rel={"noreferrer"}>
+              <FaYoutube />
+            </a>
           </div>
         </div>
 
