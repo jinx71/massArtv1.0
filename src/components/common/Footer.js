@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <SocialContributor></SocialContributor>
-      <footer className="bg-footerColor text-white  xs:hidden">
+      <footer className="bg-footerColor text-white  xs:hidden lg:block">
         <div className="mx-[32px]">
 
           <div className="lg:grid lg:grid-cols-4 lg:gap-16 xs:flex xs:flex-col" >
@@ -127,7 +127,7 @@ const Footer = () => {
                 </p>
               </nav>
       </footer>
-      <footer className="bg-footerColor text-white  md:hidden">
+      <footer className="bg-footerColor text-white  lg:hidden block">
         <div className="mx-[32px]">
 
           <div className="grid grid-cols-2 gap-[16px]" >
