@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 const Concept = () => {
   const currentPath = usePathname();
   return (
-    <div className="xs:pt-[32px] lg:pt-[0px] lg:mb-[150px]">
+    <div className="xs:pt-[32px] lg:pt-[0px] lg:mb-[150px]  xs:mt-[60px]">
       {currentPath =="/" && (
         <div className="grid md:grid-cols-2  gap-6 items-center">
         {/* card1 */}
@@ -108,7 +108,7 @@ const Concept = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000] rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <p className="text-[18px] absolute top-36 left-4 leading-[23px] font-helvetica font-bold text-white">
-              nomination process
+              Nomination process
             </p>
             <p className="text-[14px] pt-2 pr-[25%] leading-[20px]  font-normal font-helvetica">
               our preview show 2024 to be staged at a prominent kolkata venue...{" "}

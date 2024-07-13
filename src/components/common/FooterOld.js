@@ -14,8 +14,8 @@ const Footer = () => {
             <Image
               className="w-full h-full object-cover "
               src="/images/massart 1.png"
-              height={300}
-              width={300}
+              height={100}
+              width={100}
               alt=""
             />
             <nav className="xs:py-[25px]">

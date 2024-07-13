@@ -9,7 +9,7 @@ const EventPartener = () => {
   return (
     <div className="bg-EventPartner pt-[50px] font-helvetica mt-8 lg:py-[90px]">
       <div className=" font-helvetica bg-EventPartner max-w-[1200px] mx-auto">
-        <div className="py-[41px] xs:px-[32px] grid lg:grid-cols-2 items-center gap-[100px]">
+        <div className="py-[41px] xs:px-[32px] grid lg:grid-cols-2 items-center xs:gap-[15px] lg:gap-[100px]">
           <div>
             <h1 className="font-bold lg:text-[42px]  font-helvetica text-[24px] leading-[3rem] ">
               <span className="text-buttonCustomColor">
@@ -19,7 +19,7 @@ const EventPartener = () => {
             </h1>
             <p
               className="text-[14px] leading-[20px] font-helvetica 
-          font-normal  py-[25px] text-justify"
+          font-normal  pt-[25px] text-justify"
             >
               Find out more about our team, vision, and dedication to creating
               extraordinary experiences. In this section, we share our story and

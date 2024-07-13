@@ -127,7 +127,7 @@ const AboutUs = () => {
       </div>
     </div>
         <div>
-          <div className="lg:mt-[150px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] my-[32px] mb-[32px]">
+          <div className="lg:mt-[150px] xs:mt-[60px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] my-[32px] mb-[32px]">
             <span className="text-red-600">What</span> We Do
           </div>
 
@@ -338,7 +338,7 @@ const AboutUs = () => {
       </div>
 
       
-      <div className=" lg:mt-[150px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] ml-7 py-[32px]" >
+      <div className=" lg:mt-[150px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] ml-7 py-[32px] xs:mt-[60px] xs:mb-[25px]" >
       A <span className="text-red-600">Non-Profit</span> Organization Conceived In <span className="text-red-600">June 2022 </span>
           </div>
 
