@@ -1,7 +1,10 @@
 "use client";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-
+// import {conceptPage01,} from "../../public/assets/conceptPage01.jpg";
+// import {conceptPage02,} from "../../public/assets/conceptPage02.jpg";
+// import {conceptPage03,} from "../../public/assets/conceptPage03.jpg";
+// import {conceptPage04,} from "../../public/assets/conceptPage04.jpg";
 const Concept = () => {
   const currentPath = usePathname();
   return (
@@ -32,111 +35,88 @@ const Concept = () => {
           </div>
         </div>
 
-        <div className="grid  md:grid-cols-2 gap-6 items-center">
+        <div className="grid md:grid-cols-2 gap-6 items-center ">
           {/* card 2 */}
-          <div className="h-[285px] w-full relative group">
-            <div className="relative group">
-              <Image
-                className="w-full object-cover rounded-[10px]"
-                src="/images/preview show-min.jpg"
-                height={100}
-                width={100}
-                alt=""
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000] rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </div>
+          <div className="relative h-[285px]  w-full group rounded-md overflow-hidden group  bg-[url('/assets/conceptPage04.jpg')] bg-no-repeat bg-cover bg-center">
+          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-            <p className="text-[18px] absolute top-36 left-4 leading-[23px] font-helvetica font-bold text-white">
-              preview show 2024
+          <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">
+            Preview Show 2024
             </p>
-            {/* <div className="absolute left-[25px] bottom-[25px] opacity-1  duration-300">
-              <p className="text-[18px] leading-[23px] font-helvetica font-bold text-white">
-                preview show 2024
+            <div className="pt-[10px]">
+              <p className="text-[14px] pr-[25%]  text-[#b8b4b4] font-normal font-helvetica">
+              our preview show 2024 to be staged at a prominent kolkata venue...
               </p>
               <div className="pt-[10px]">
-                <p className="text-[18px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
-                  our preview show 2024 to be staged at a prominent kolkata
-                  venue is intended to show you how durga puja in bengal has
-                  evolved into a display of contemporary Art while remaining
-                  deeply rooted in tradition.
-                </p>
-
-                <div className="pt-[10px]">
-                  <Link href="/concept">
-                    <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
-                      Read More
-                    </button>
-                  </Link>
-                </div>
+                <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
+                  View More
+                </button>
               </div>
-            </div> */}
-            <p className="text-[14px] pt-2 pr-[25%] leading-[20px]  font-normal font-helvetica">
-              our preview show 2024 to be staged at a prominent kolkata venue...{" "}
-              <span className="underline">View More</span>
-            </p>
+            </div>
           </div>
+        </div>
           {/* card 3 */}
-          <div className="h-[285px] w-full relative group">
-            <div className="relative group">
-              <Image
-                className="w-full h-full object-cover rounded-[10px]"
-                src="/images/Previewpass-234-min.jpg"
-                height={100}
-                width={100}
-                alt=""
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000] rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="relative h-[285px]  w-full group rounded-md overflow-hidden group  bg-[url('/assets/conceptPage03.jpg')] bg-no-repeat bg-cover bg-center">
+          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+          <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">
+            Preview Pass
+            </p>
+            <div className="pt-[10px]">
+              <p className="text-[14px] pr-[25%]  text-[#b8b4b4] font-normal font-helvetica">
+              the third edition of preview show of durga puja Art 2024 kolkata...
+              </p>
+              <div className="pt-[10px]">
+                <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
+                  View More
+                </button>
+              </div>
             </div>
-            <p className="text-[18px] absolute top-36 left-4 leading-[23px] font-helvetica font-bold text-white">
-              preview pass
-            </p>
-            <p className="text-[14px] pt-2 pr-[25%] leading-[20px]  font-normal font-helvetica">
-              the third edition of preview show of durga puja Art 2024
-              kolkata..... <span className="underline">View More</span>
-            </p>
           </div>
+        </div>
           {/* card4 */}
-          <div className="h-[285px] w-full relative group">
-            <div className="relative group">
-              <Image
-                className="w-full h-full object-cover rounded-[10px]"
-                src="/images/nominationProcess.jpg"
-                height={100}
-                width={100}
-                alt=""
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000] rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="relative h-[285px]  w-full group rounded-md overflow-hidden group  bg-[url('/assets/conceptPage02.jpg')] bg-no-repeat bg-cover bg-center">
+          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+          <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">
+            Nomination Process
+            </p>
+            <div className="pt-[10px]">
+              <p className="text-[14px] pr-[25%]  text-[#b8b4b4] font-normal font-helvetica">
+              our preview show 2024 to be staged at a prominent kolkata venue...
+              </p>
+              <div className="pt-[10px]">
+                <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
+                  View More
+                </button>
+              </div>
             </div>
-            <p className="text-[18px] absolute top-36 left-4 leading-[23px] font-helvetica font-bold text-white">
-              Nomination process
-            </p>
-            <p className="text-[14px] pr-[25%] leading-[20px]  font-normal font-helvetica">
-              our preview show 2024 to be staged at a prominent kolkata venue...{" "}
-              <span className="underline">view more</span>
-            </p>
           </div>
+        </div>
           {/* card5 */}
 
-          <div className="h-[285px] w-full relative group">
-            <div className="relative group">
-              <Image
-                className="w-full h-full object-cover rounded-[10px]"
-                src="/images/nominationProcess.jpg"
-                height={100}
-                width={100}
-                alt=""
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000] rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </div>
+          <div className="relative h-[285px]  w-full group rounded-md overflow-hidden group  bg-[url('/assets/conceptPage02.jpg')] bg-no-repeat bg-cover bg-center">
+          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-            <p className="text-[18px] absolute top-36 left-4 leading-[23px] font-helvetica font-bold text-white">
-              hand in hand
+          <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">
+            Hand in Hand
             </p>
-            <p className="text-[14px] pt-2 pr-[25%] leading-[20px]  font-normal font-helvetica">
-              your participation will enable bengal Art, culture and herit....{" "}
-              <span className="underline">view more</span>
-            </p>
+            <div className="pt-[10px]">
+              <p className="text-[14px] pr-[25%]  text-[#b8b4b4] font-normal font-helvetica">
+              your participation will enable bengal Art, culture and herit...
+              </p>
+              <div className="pt-[10px]">
+                <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
+                  View More
+                </button>
+              </div>
+            </div>
           </div>
+        </div>
         </div>
       </div>
       )}
