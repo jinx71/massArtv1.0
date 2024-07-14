@@ -143,12 +143,12 @@ const Concept = () => {
         
             </div>
             <div>
-              <div className="font-[Helvetica] md:text-[49px] leading-[56px] text-[24px] font-bold mb-[5px]">
+              <div className="font-[Helvetica] md:text-[42px] leading-[56px] text-[24px] font-bold mb-[5px]">
                 <span className="text-red-600">What</span> Is Durga Puja Art
               </div>
               <div className="md:text-[15px] leading-[24px] text-[12px]">
                 <p
-                  className="md:mb-6 mb-5 text-justify"
+                  className="md:mb-6 mb-5 "
                   style={{ fontFamily: "sans-serif" }}
                 >
                   Durga puja is bengal’s biggest festival that takes place over
@@ -169,7 +169,7 @@ const Concept = () => {
                   a different theme to which the entire structure conforms.
                 </p>
                 <p
-                  className="md:mb-6 mb-5 text-justify"
+                  className="md:mb-6 mb-5 "
                   style={{ fontFamily: "sans-serif" }}
                 >
                   every autumn, the entire city wakes up to an explosion of
@@ -181,7 +181,7 @@ const Concept = () => {
                   providing an eco-system of community support.
                 </p>
                 <p
-                  className="md:mb-6 mb-5 text-justify"
+                  className="md:mb-6 mb-5 "
                   style={{ fontFamily: "sans-serif" }}
                 >
                   as a result, every year, the durga puja experience is
@@ -201,22 +201,22 @@ const Concept = () => {
 
       {/* Show on mobile */}
       {currentPath !== "/" && (
-        <div className="grid grid-flow-col auto-cols-max gap-3 mx-[32px] overflow-x-auto no-scrollbar lg:flex lg:justify-evenly  lg:mt-[150px] xs:pt-[60px] ">
+        <div className="grid grid-flow-col auto-cols-max gap-1 mx-[32px] overflow-x-auto no-scrollbar lg:flex lg:justify-evenly  lg:mt-[150px] xs:mt-[60px] ">
          
           <div className="relative group rounded-lg overflow-hidden justify-center flex duration-150">
             <Image
               className=""
-              width={320}
+              width={350}
               height={700}
               src="/photos/phone screen/concept/picture 2.png"
               alt=""
             />
             <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-2 text-white">
-              <p className="text-[12px] leading-[15px] font-[Helvetica] mb-[10px]">
+              <p className="text-[24px] leading-[25px] font-[Helvetica] mb-[10px]">
                 Contemporary Durga Puja Art
               </p>
-              <div className="pt-[10px]">
-                <p className="text-[8px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
+              <div className="pt-[0px]">
+                <p className="text-[12px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
                   the third edition of preview show of durga puja Art 2024
                   kolkata, is going to be held on 30 september to 4 october. the
                   show time being 6 pm to 5 am.
@@ -232,17 +232,17 @@ const Concept = () => {
           <div className="relative group rounded-lg overflow-hidden justify-center flex">
             <Image
               className=""
-              width={320}
+              width={350}
               height={249}
               src="/photos/phone screen/concept/picture 3.png"
               alt=""
             />
             <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-2 text-white">
-              <p className="text-[12px] leading-[15px] font-[Helvetica] mb-[10px]">
+              <p className="text-[24px] leading-[25px] font-[Helvetica] mb-[10px]">
                 Multi Genre Music Festival 2024
               </p>
-              <div className="pt-[10px]">
-                <p className="text-[8px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
+              <div className="pt-[0px]">
+                <p className="text-[12px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
                   the third edition of preview show of durga puja Art 2024
                   kolkata, is going to be held on 30 september to 4 october. the
                   show time being 6 pm to 5 am.
@@ -258,17 +258,17 @@ const Concept = () => {
           <div className="relative group rounded-lg overflow-hidden justify-center flex">
             <Image
               className=""
-              width={320}
+              width={350}
               height={249}
               src="/photos/phone screen/concept/picture 3.png"
               alt=""
             />
-            <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-2 text-white">
-              <p className="text-[12px] leading-[15px] font-[Helvetica] mb-[10px]">
+            <div className="hidden absolute text-[24px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-2 text-white">
+              <p className="text-[24px] leading-[25px] font-[Helvetica] mb-[10px]">
                 Multi Genre Music Festival 2024
               </p>
-              <div className="pt-[10px]">
-                <p className="text-[8px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
+              <div className="pt-[0px]">
+                <p className="text-[12px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
                   The third edition of preview show of durga puja Art 2024
                   kolkata, is going to be held on 30 september to 4 october. the
                   show time being 6 pm to 5 am.
