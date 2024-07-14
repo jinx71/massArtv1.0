@@ -97,7 +97,7 @@ const AboutUs = () => {
           <span className="text-buttonCustomColor "> We Are </span>
         </h1>
         <p
-          className=" font-normal font-helvetica xs:text-[12px] xs:leading-[20px] xs:pb-[25px] lg:text-[16px] lg:pt-10
+          className=" font-normal font-helvetica xs:text-[12px] xs:leading-[20px]  lg:text-[16px] lg:pt-10
         "
         >
           Durga puja is bengal’s biggest festival that takes place over a week
