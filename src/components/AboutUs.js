@@ -91,7 +91,7 @@ const AboutUs = () => {
         </div> */}
 <div className=" bg-white font-helvetica">
       <div className="flex flex-col-reverse lg:flex-row-reverse justify-center lg:gap-16 xs:mt-[60px] lg:mt-[150px]">
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/2  lg:mt-[0px] xs:mt-[25px]">
         <h1 className="xs:text-[24px] lg:text-[42px] xs:leading-[36px] font-helvetica font-bold">
           Who
           <span className="text-buttonCustomColor "> We Are </span>
