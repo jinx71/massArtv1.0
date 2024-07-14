@@ -82,7 +82,7 @@ const Review = () => {
           {testimonials.map((testimonial) => (
            
             
-            <div className="flex justify-center h-[500px]">
+            <div key={testimonial.id} className="flex justify-center h-[500px]">
    <div className="rounded-lg shadow-lg bg-white max-w-sm h-[500px] flex flex-col justify-evenly">
      <a href="#">
        <video autoPlay loop muted className="rounded-[10px]  h-full w-full 
