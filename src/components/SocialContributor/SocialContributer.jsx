@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SocialContributor = () => {
   return (
-    <div className="px-[32px] py-[30px]">
+    <div className="px-[32px] pt-[30px]">
       <div className="w-full grid grid-cols-3 gap-4 justify-between items-center">
         <div className="w-full h-full lg:p-6 flex justify-center items-center  hover:bg-EventPartner">
           <Image

@@ -5,7 +5,7 @@ const Video = () => {
     // <div className="h-[626px] pt-[150px] bg-white">
     <div
       className="relative 
-      xs:mt-[60px] xs:mb-[30px]
+      lg:mt-[60px] lg:mb-[30px]
      xs:h-[550px] "
     >
       <video

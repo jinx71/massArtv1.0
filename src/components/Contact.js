@@ -304,7 +304,7 @@ const Contact = () => {
         )}
       </div>
 
-      <div className="justify-between items-center bg-white-100 grid md:grid-cols-3 p-4 grid-cols-1 md:my-[52px] my-[45px]">
+      <div className="justify-between items-center bg-white-100 grid md:grid-cols-3 p-4 grid-cols-1 md:my-[52px] mt-[45px]">
         <div className="flex items-center md:mb-0 mb-6">
           <div className="me-4">
             <div className="bg-buttonCustomColor lg:w-[81px] lg:h-[81px] w-[42px] h-[42px]  flex justify-center items-center text-white rounded-full">
