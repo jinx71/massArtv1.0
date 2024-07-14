@@ -13,7 +13,7 @@ const Concept = () => {
         <div className="grid md:grid-cols-2  gap-6 items-center">
         {/* card1 */}
         <div className="relative h-[400px] md:h-[590px] rounded-md overflow-hidden group  bg-[url('/images/conceptOfDurgaPuja.jpg')] bg-no-repeat bg-cover bg-center">
-          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="absolute inset-0   rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
           <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">
@@ -38,7 +38,7 @@ const Concept = () => {
         <div className="grid md:grid-cols-2 gap-6 items-center ">
           {/* card 2 */}
           <div className="relative h-[285px]  w-full group rounded-md overflow-hidden group  bg-[url('/assets/conceptPage04.jpg')] bg-no-repeat bg-cover bg-center">
-          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="absolute inset-0   rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
           <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">
@@ -58,7 +58,7 @@ const Concept = () => {
         </div>
           {/* card 3 */}
           <div className="relative h-[285px]  w-full group rounded-md overflow-hidden group  bg-[url('/assets/conceptPage03.jpg')] bg-no-repeat bg-cover bg-center">
-          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="absolute inset-0   rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
           <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">
@@ -78,7 +78,7 @@ const Concept = () => {
         </div>
           {/* card4 */}
           <div className="relative h-[285px]  w-full group rounded-md overflow-hidden group  bg-[url('/assets/conceptPage02.jpg')] bg-no-repeat bg-cover bg-center">
-          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="absolute inset-0   rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
           <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">
@@ -99,7 +99,7 @@ const Concept = () => {
           {/* card5 */}
 
           <div className="relative h-[285px]  w-full group rounded-md overflow-hidden group  bg-[url('/assets/conceptPage02.jpg')] bg-no-repeat bg-cover bg-center">
-          <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="absolute inset-0   rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
           <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <p className="text-[24px] leading-[23px] font-helvetica font-bold text-[#FCFCFC]">

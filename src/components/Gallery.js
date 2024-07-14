@@ -199,7 +199,7 @@ const Gallery = () => {
         <>
         <div className="xs:px-[32px] lg:mt-[150px] xs:mt-[60px]">
       <div>
-        <div className="grid-col-1 text-red-600 block font-[Helvetica] md:text-[42px] text-[24px] font-bold">
+        <div className="grid-col-1 text-red-600 block font-[Helvetica] md:text-[42px] text-[24px] xs:mb-[25px] lg:mb-[0px] font-bold">
        <span className="text-red-600">Videos</span>
       </div>
         
@@ -211,7 +211,7 @@ const Gallery = () => {
         </div>
         <div className="xs:px-[32px] lg:mt-[150px] xs:mt-[60px]">
       <div>
-        <div className="grid-col-1 text-red-600 block font-[Helvetica] md:text-[42px] text-[24px] font-bold lg:mb-[64px]">
+        <div className="grid-col-1 text-red-600 block font-[Helvetica] md:text-[42px] text-[24px] font-bold lg:mb-[64px] xs:mb-[25px] lg:mb-[0px]">
        <span className="text-red-600">Photos</span>
       </div>
         

@@ -135,7 +135,7 @@ const HeaderHome = () => {
             <li className="text-white font-helvetica">
               <div className="dropdown">
                 <Link href="/preview-show-2024">Preview Show</Link>
-                <ul className="dropdown-content">
+                <ul className="dropdown-content pt-32">
                   <li>
                     <Link href="/2023">2023</Link>
                   </li>

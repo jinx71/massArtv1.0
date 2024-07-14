@@ -54,8 +54,8 @@ const TwoZeroTwoThree = () => {
   }, [slides.length]);
 
   return (
-    <div className="text-justify max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] lg:mt-[150px] md:mt=[100px] mt-[60px]">
-      <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[52px] gap-7 lg:mb-[157px] mb-7">
+    <div className=" max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] lg:mt-[150px] md:mt=[100px] mt-[60px]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[52px] gap-7 lg:mb-[150px]">
         <div className="flex justify-center">
           <Image
             className="lg:w-full w-2/3 h-auto rounded-[50px] lg:block hidden"
@@ -73,15 +73,15 @@ const TwoZeroTwoThree = () => {
           />
         </div>
         <div>
-          <div className="md:block hidden font-[Helvetica] lg:text-[42px] lg:leading-[56px] md:text-[36px] md:leading-[46px] xs:text-[24px] leading-[36px] font-bold mb-[20px]">
+          <div className="md:block hidden font-[Helvetica] lg:text-[42px] lg:leading-[56px] md:text-[36px] md:leading-[46px] xs:text-[24px] leading-[36px] font-bold ">
             Preview Show <span className="text-red-600">2023</span>
           </div>
 
           <div className="md:hidden block font-[Helvetica] lg:text-[42px] lg:leading-[56px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold mb-[20px]">
-          <span className="text-red-600">What</span> Is Durga Puja Art
+          <span className="text-red-600">Preview Show</span> 2023
           </div>
 
-          <div className="md:block hidden md:text-[18px] md:leading-[24px] text-[12px] leading-[18px]">
+          <div className="md:block hidden md:text-[16px] md:leading-[24px] text-[12px] leading-[16px]">
             <p className="md:mb-9 mb-5 font-normal font-helvetica">
               Every year, we are confronted with new categories of Durga Puja
               Art and artists, displaying ever newer templates of contemporary
@@ -112,7 +112,7 @@ const TwoZeroTwoThree = () => {
             </p>
           </div>
 
-          <div className="md:hidden block md:text-[18px] md:leading-[24px] text-[12px] leading-[18px]">
+          <div className="md:hidden block md:text-[16px] md:leading-[24px] text-[12px] leading-[18px]">
             <p className="md:mb-9 mb-5 font-normal font-helvetica">
             Durga puja is bengal’s biggest festival that takes place over a week  or so in september-october, on dates varying every year but announced  well in advance. at the centre of the celebration is the figure of  goddess durga, crafted traditionally in clay, who is worshipped in the  act of vanquishing the demon mahishasura. it is particularly in the  streets of kolkata (calcutta), the capital of the state, that durga puja  transcends religious bounds and serves as the cradle for the world’s  largest publicly funded Art show. while the worship of durga and her  four divine children remains the ritualistic core, the temporary  shelters of the idols – structures created from months in advance in  street corners – become exquisite works of artistic expression, unique  to each locality every year. thus there is a different artistic  interpretation offered in every locality through the choice of a  different theme to which the entire structure conforms.
             </p>
@@ -128,12 +128,12 @@ const TwoZeroTwoThree = () => {
         </div>
       </div>
 
-      <div className="md:grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[20px] gap-7 lg:mb-[157px] mb-7 hidden">
+      <div className="md:grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[20px] gap-7 mb-7 hidden">
         <div className="font-[Helvetica] lg:text-[42px] lgleading-[59px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold">
           Selected Art <span className="text-red-600"> <br className="md:block hidden" /> Venue </span>
         </div>
         <div>
-          <div className="md:text-[18px] md:leading-[24px] font-normal">
+          <div className="md:text-[16px] md:leading-[24px] font-normal">
             <p>
               Out of a pool of over 3000 Durga Puja organizing associations who
               are keen to be in the list, only 26 Durga Puja Art venues were
@@ -146,7 +146,7 @@ const TwoZeroTwoThree = () => {
         </div>
       </div>
 
-      <div className="md:grid md:grid-cols-3 grid-cols-1 gap-5 mb-[157px] hidden">
+      <div className="md:grid md:grid-cols-3 grid-cols-1 gap-5 hidden">
         <div className="relative group rounded-[20px] overflow-hidden">
           <Image
             className="w-full h-auto"
@@ -167,7 +167,7 @@ const TwoZeroTwoThree = () => {
             </p>
             <div>
               <a
-                className="text-[18px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
+                className="text-[16px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
                 href="#"
               >
                 Read More
@@ -196,7 +196,7 @@ const TwoZeroTwoThree = () => {
             </p>
             <div>
               <a
-                className="text-[18px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
+                className="text-[16px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
                 href="#"
               >
                 Read More
@@ -225,7 +225,7 @@ const TwoZeroTwoThree = () => {
             </p>
             <div>
               <a
-                className="text-[18px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
+                className="text-[16px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
                 href="#"
               >
                 Read More
@@ -254,7 +254,7 @@ const TwoZeroTwoThree = () => {
             </p>
             <div>
               <a
-                className="text-[18px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
+                className="text-[16px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
                 href="#"
               >
                 Read More

@@ -145,7 +145,7 @@ const Header = () => {
               <Link href="/concept">Concept</Link>
             </li>
            <li className="text-white font-helvetica">
-          <div className="dropdown">
+          <div className="dropdown ">
             <Link href="/preview-show-2024">Preview Show</Link>
             <ul className="dropdown-content pt-32">
               <li>
