@@ -86,7 +86,7 @@ const MasterClass = () => {
   };
 
   return (
-    <div className="overflow-hidden lg:mt-[36px] lg:mb-[150px]  w-full">
+    <div className="overflow-hidden lg:mt-[36px] xs:gap-[10px] xs:px-[32px] lg:px-[0px]  w-full">
       <Slider {...settings} className="">
         {events.map((event, index) => (
           <div key={index} className="">

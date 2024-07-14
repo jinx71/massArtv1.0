@@ -199,7 +199,7 @@ const HeaderHome = () => {
               </Link>
             </div>
           </div> */}
-          <div className="flex space-x-[10px] text-white pt-[39px] text-[24px] justify-center ">
+          <div className="flex space-x-[10px] text-white pt-[39px] text-[24px] justify-center items-end">
             
             <a href="https://www.facebook.com/durgapujamassart/" passHref={true} target={"_blank"}rel={"noreferrer"}>
               <CiFacebook />

@@ -177,7 +177,7 @@ const Gallery = () => {
         <Link href='/gallery'>
          <button
           className="xs:mt-[25px]  xs:text-[12px] xs:leading-[14px] font-helvetica font-bold text-buttonCustomColor border border-buttonCustomColor
-           xs:px-[17px] xs:py-[9px] rounded-full w-full lg:my-[50px]"
+           xs:px-[17px] xs:py-[9px] rounded-full w-full lg:mt-[50px]"
         >
           Browse More Video
         </button>

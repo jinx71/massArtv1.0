@@ -4,14 +4,14 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import "/public/styles/MasterClass.css";
+import "../../public/styles/MasterClass.css";
 
 const testimonials = [
   {
     id: 1,
     name: "Sagnik Roy",
     title: "Founder & CEO",
-    text: "Puja Art has transformed our understanding and appreciation of art in a profound way. The collection is extraordinary.",
+    text: "The quality and variety of artwork available on Puja Art are impressive. It's my go-to platform for discovering new artists.",
     rating: 5,
     image: "/images/Ellipse 115.png",
     video: "/images/Group .png",
@@ -22,7 +22,16 @@ const testimonials = [
     title: "Art Collector",
     text: "The quality and variety of artwork available on Puja Art are impressive. It's my go-to platform for discovering new artists.",
     rating: 5,
-    image: "/images/Ellipse 116.png",
+    image: "/images/Ellipse 115.png",
+    video: "/images/Group .png",
+  },
+  {
+    id: 3,
+    name: "Amit Das",
+    title: "Art Collector",
+    text: "The quality and variety of artwork available on Puja Art are impressive. It's my go-to platform for discovering new artists.",
+    rating: 5,
+    image: "/images/Ellipse 115.png",
     video: "/images/Group .png",
   },
   // Add more items as needed
@@ -56,54 +65,51 @@ const Review = () => {
   };
 
   return (
-    <div className="bg-white w-full overflow-hidden lg:mt-[150px]">
-      <div className="pl-[32px] pr-[56px] pb-[25px] pt-[60px]">
-        <h2 className="text-[24px] lg:text-[42px] font-bold xs:leading-[36px] text-left">
-          What our <span className="text-red-500">popular customers </span>are
-          saying
-        </h2>
-        <p className="pt-[10px] text-[14px] font-normal leading-[18px]">
-          Find out more about our team, vision, and dedication to creating
-          extraordinary experiences. In this section, we share our story and our
-          commitment to the success of each event.
-        </p>
-      </div>
-      <div className="px-[22px]">
+    <div className="relative bg-white overflow-hidden lg:mt-[150px] xs:mt-[60px] lg:px-[120px] xs:px-[36px]">
+      <div
+      className="  
+         xs:px-[32px]flex flex-col justify-center lg:flex-row "
+    >
+      <h1 className="xs:text-[24px] lg:text-[42px] leading-[3rem] w-full text-center  font-bold font-helvetica">
+       Customer's {" "}
+        <span className="text-red-600">Testimonial</span>
+      </h1>
+
+      
+    </div>
+      <div className="pt-[50px]">
         <Slider {...settings}>
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="px-[10px]">
-              <div className="bg-white p-[25px] shadow-lg">
-                <div>
-                  <Image
-                    src={testimonial.video}
-                    alt={testimonial.name}
-                    width={100}
-                    height={100}
-                    className="w-full h-[137px] object-cover"
-                  />
-                </div>
-                <p className="text-[12px] pt-[15px] pb-[35px] font-helvetica md:text-[18px] font-normal text-gray-600">
-                  {testimonial.text}
-                </p>
-                <div className="flex items-center">
-                  <Image
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    width={100}
-                    height={100}
-                    className="w-10 h-10 rounded-full"
-                  />
-                  <div className="ml-3">
-                    <p className=" font-helvetica lg:text-[18px] md:text-[18px] sm:text-[12px] xs:text-[12px] font-bold">
-                      {testimonial.name}
-                    </p>
-                    <p className="font-helvetica  xl:text-[12px] lg:text-[12px] md:text-[12px] sm:text-[12px] xs:text-[12px] font-normal">
-                      {testimonial.title}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
+            
+            <div className="flex justify-center h-[500px]">
+   <div className="rounded-lg shadow-lg bg-white max-w-sm h-[500px] flex flex-col justify-evenly">
+     <a href="#">
+       <video autoPlay loop muted className="rounded-[10px]  h-full w-full 
+   
+       object-cover">
+         <source src="/videos/Header.mp4" type="video/mp4" />
+         Your browser does not support the video tag.
+       </video>
+     </a>
+     <div className="p-6">
+
+       <p className="text-gray-700 text-base mb-4">
+         {testimonial.text}
+       </p>
+       <div className="flex flex-row gap-[10px] justify-start items-center">
+         <img src={testimonial.image}></img>
+         <div className="">
+           <h5 className="text-gray-900 text-sm font-medium ">{testimonial.name}</h5>
+           <h6 className="text-gray-900 text-xl text-[10px] ">{testimonial.title}</h6>
+         </div>
+       </div>
+       <button type="button"
+         className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Rating
+         : {testimonial.rating}</button>
+     </div>
+   </div>
+ </div>
           ))}
         </Slider>
       </div>

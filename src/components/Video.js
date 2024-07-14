@@ -6,7 +6,7 @@ const Video = () => {
     <div
       className="relative 
       xs:mt-[60px] xs:mb-[30px]
-     xs:h-[410px] "
+     xs:h-[550px] "
     >
       <video
         autoPlay

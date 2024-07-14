@@ -3,8 +3,8 @@ const HomeVideo = () => {
     // <div className="h-[626px] pt-[150px] bg-white">
     <div
       className="relative 
-      xs:mt-[60px] xs:mb-[30px]
-     xs:h-[550px] p-2"
+      xs:mt-[60px] lg:mt-[150px] xs:mb-[30px]
+     xs:h-[550px]"
     >
       <video
         autoPlay

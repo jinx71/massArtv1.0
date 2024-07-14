@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 const Concept = () => {
   const currentPath = usePathname();
   return (
-    <div className="xs:pt-[32px] lg:pt-[0px] lg:mb-[150px]  xs:mt-[60px]">
+    <div className="lg:mt-[150px]  xs:mt-[60px]">
       {currentPath =="/" && (
         <div className="grid md:grid-cols-2  gap-6 items-center">
         {/* card1 */}
