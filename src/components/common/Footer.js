@@ -143,7 +143,7 @@ const Footer = () => {
             />
             </div>
               <div className="w-full grow">
-              <p className="capitalize text-[12px] pt-[10px] text-justify">A non-profit organization conceived in june 2022 with the
+              <p className="capitalize text-[12px] leading-8 pt-[10px] text-justify">A non-profit organization conceived in june 2022 with the
               objective of promoting Art and culture of bengal.</p>
               </div>
             </div>
@@ -151,27 +151,27 @@ const Footer = () => {
 
             <div className="flex flex-col lg:pt-16 xs:pt-[20px]">
             <div className="grow-0">
-            <h6 className="font-helvetica font-bold text-white xs:text-[24px]">
+            <h6 className="font-helvetica font-bold text-white xs:text-[16px]">
                   Navigation
                 </h6>
             </div>
             <nav>
                 
                  <Link  href='/'>
-                  <p className="text-[14px]   font-helvetica link-hover">
+                  <p className="text-[12px] leading-8   font-helvetica link-hover">
                   Home
                 </p>
                  </Link>
                
                 <Link  href='/about-us'>
-                  <p className="text-[14px]   font-helvetica link-hover">
+                  <p className="text-[12px] leading-8   font-helvetica link-hover">
                   About Us
                 </p>
                 </Link>
               
 
                <Link  href='/concept'>
-                <p className="text-[14px]  font-helvetica link-hover">
+                <p className="text-[12px] leading-8  font-helvetica link-hover">
                   Concept
                 </p>
                </Link>
@@ -181,24 +181,24 @@ const Footer = () => {
 
             <div className="flex flex-col lg:pt-16 xs:pt-[20px]">
             <div className="grow-0">
-            <h6 className=" font-helvetica font-bold text-white xs:text-[24px]">
+            <h6 className=" font-helvetica font-bold text-white xs:text-[16px]">
                   Learn More
                 </h6>
             </div>
             <nav>
                 
             <Link  href='/toc'>
-                 <p className="text-[14px]   font-helvetica link-hover">
+                 <p className="text-[12px] leading-8   font-helvetica link-hover">
                   Terms Of Use
                 </p>
                 </Link>
                 <Link  href='/privacyPolicy'>
-                 <p className="text-[14px]   font-helvetica link-hover">
+                 <p className="text-[12px] leading-8   font-helvetica link-hover">
                   Privacy Policy
                 </p>
                 </Link>
                 <Link  href='/faq'>
-                 <p className="text-[14px]  font-helvetica link-hover">
+                 <p className="text-[12px] leading-8  font-helvetica link-hover">
                   FAQ
                 </p>
                 </Link>
@@ -208,13 +208,13 @@ const Footer = () => {
 
             <div className="flex flex-col lg:pt-16 xs:pt-[20px]">
             <div className="grow-0">
-            <h6 className="font-helvetica font-bold text-white xs:text-[24px]">
+            <h6 className="font-helvetica font-bold text-white xs:text-[16px]">
                   Newsletter
                 </h6>
             </div>
             <form>
                 
-                <p className="capitalize text-[14px] text-justify">
+                <p className="capitalize text-[12px] leading-8 text-justify">
                   Don't miss the latest information on this platform
                 </p>
                 <fieldset className="form-control xs:my-8">
@@ -237,7 +237,7 @@ const Footer = () => {
         </div>
         <hr class="h-px  bg-white"></hr>
         <nav>
-                <p className="pt-[10px] text-[14px]  font-helvetica text-center">
+                <p className="pt-[10px] text-[12px] leading-8  font-helvetica text-center">
                   Copyright © 2024 massArt, Designed & Developed Ethically by <span> </span>
                   <a href="https://www.ethicalden.com/" target="_blank" className="link-hover">
                     Ethical Den

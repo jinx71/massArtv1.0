@@ -13,23 +13,28 @@ const PreviewShow_two = () => {
   const slides = [
     {
       imageUrl:
-        "/photos/big screen/concept/picture 01.png",
-      title: "contemporary durga puja Art 1",
+        "./assets/inclusive events_ 430x510  = 3.jpg",
+      title: "",
     },
     {
       imageUrl:
-        "/photos/big screen/concept/picture 02.png",
-      title: "contemporary durga puja Art 2",
+        "./assets/inclusive events_ 430x510  = 4.jpg",
+      title: "",
     },
     {
       imageUrl:
-        "/photos/big screen/concept/picture 03.png",
-      title: "contemporary durga puja Art 3",
+        "./assets/inclusive events_ 430x510  = 5.jpg",
+      title: "",
     },
     {
       imageUrl:
-        "/photos/big screen/concept/picture 04.png",
-      title: "contemporary durga puja Art 4",
+        "./assets/inclusive events_ 430x510 =1.jpg",
+      title: "",
+    },
+    {
+      imageUrl:
+        "./assets/inclusive events_ 430x510  = 2.jpg",
+      title: "",
     },
   ];
 
@@ -70,9 +75,9 @@ const PreviewShow_two = () => {
 
     <div>
       <div className="2xl:ms-auto 2xl:me-auto max-w-7xl xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] md:mt-[150px] mt-[60px]">
-        <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[106px] lg:gap-[90px] gap-[30px] md:mb-[157px] mb-5">
+        <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[106px] lg:gap-[90px] gap-[30px] md:mb-[150px]">
           <div className="font-[Helvetica] md:hidden block text-[24px] leading-[30px] font-bold">
-            Preview Show <span className="text-red-600">2024</span>
+            Preview Show <span className="text-red-600">2025</span>
           </div>
           <div>
             <Image
@@ -94,7 +99,7 @@ const PreviewShow_two = () => {
             <div className="md:block hidden font-[Helvetica] md:text-[42px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
               Preview Show <span className="text-red-600">2025</span>
             </div>
-            <div className="text-justify md:text-[18px] md:leading-[30px] text-[12px] md:block">
+            <div className=" md:text-[18px] md:leading-[30px] text-[12px] md:block">
               <p className="md:mb-9 mb-5 font-helvetica">
                 The preview show, conceived by massArt, received overwhelming response in its inaugural year in 2022, being hailed at home and abroad as a breakthrough idea by creating a space to accommodate tourists who want to soak in the creative aspect of Durga Puja without jostling with the crowd.
               </p>
@@ -151,24 +156,24 @@ const PreviewShow_two = () => {
 
 
 
-      <div className="2xl:ms-auto 2xl:me-auto max-w-7xl md:grid hidden  lg:grid-cols-2 grid-cols-1 xl:gap-[106px] lg:gap-[90px] gap-[30px] md:mb-[157px] mb-5 xl:ms-[125px] ms-[38px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[38px] ">
-        <div className="font-[Helvetica] md:hidden block text-[24px] leading-[30px] font-bold">
+      <div className="2xl:ms-auto 2xl:me-auto max-w-7xl md:grid md:hidden  lg:grid-cols-2 grid-cols-1 xl:gap-[106px] lg:gap-[90px] gap-[30px] md:mb-[150px] mb-5 xl:ms-[125px] ms-[38px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[38px] ">
+        <div className="font-[Helvetica] hidden text-[24px] leading-[30px] font-bold">
           Preview Show <span className="text-red-600">2024</span>
         </div>
         <div>
           <Image
-            className="w-full h-auto rounded-[50px] object-cover"
-            src="/photos/big screen/2025/Rectangle 2 (1).png"
+            className="w-full h-auto rounded-[10px] object-cover"
+            src="./assets/2025.jpg"
             alt=""
             width={527}
             height={358}
           />
         </div>
         <div>
-          <div className="md:block hidden font-[Helvetica] md:text-[42px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
-            Events
+          <div className="md:block font-[Helvetica] md:text-[42px] md:leading-[56px] text-[24px] leading-[30px] font-bold xs:mt-[25px] lg:mt-[0px] mb-[20px]">
+          <span className="text-red-600">Events</span>
           </div>
-          <div className="md:text-[18px] md:leading-[30px] text-[12px] md:block hidden">
+          <div className="md:text-[18px] md:leading-[30px] text-[12px] md:block">
             <p className="md:mb-9 mb-5 font-helvetica">
               being a socially inclined organisation, massArt takes an endeavor of including in preview show of durga puja Art (psdpa) the faces of those who are not so privileged. thus we have multiple inclusive events for the orphans, old age people and differently abled children
 
@@ -185,12 +190,12 @@ const PreviewShow_two = () => {
 
         <div className="md:mb-[40px] mb-[30px] text-md:center text-left">Inclusive <span className="text-buttonCustomColor">Events</span></div>
 
-        <div className="md:grid lg:grid-cols-3 grid-cols-1 gap-5 mb-[157px] hidden">
+        <div className="md:grid lg:grid-cols-3 grid-cols-1 gap-5 mb-[150px] hidden">
 
           <div className="relative overflow-hidden rounded-[20px] group">
             <Image
               className="w-full h-auto rounded-[20px] object-cover"
-              src="/photos/big screen/2025/Rectangle 22.png"
+              src="./assets/inclusive events_ 430x510  = 3.jpg"
               alt=""
               width={387}
               height={217}
@@ -200,7 +205,7 @@ const PreviewShow_two = () => {
               style={{ background: 'linear-gradient(2deg, rgba(129, 129, 129, 0.5), rgba(0, 0, 0, 0.5))' }}
             >
               <p className="text-[24px] text-left leading-[32px] font-semibold font-[Helvetica] mb-[10px]">
-                Bring back their memories
+                
               </p>
               <div>
               </div>
@@ -209,7 +214,7 @@ const PreviewShow_two = () => {
           <div className="relative overflow-hidden rounded-[20px] group">
             <Image
               className="w-full h-auto rounded-[20px] object-cover"
-              src="/photos/big screen/2025/Rectangle 22.png"
+              src="./assets/inclusive events_ 430x510  = 4.jpg"
               alt=""
               width={387}
               height={217}
@@ -219,7 +224,7 @@ const PreviewShow_two = () => {
               style={{ background: 'linear-gradient(2deg, rgba(129, 129, 129, 0.5), rgba(0, 0, 0, 0.5))' }}
             >
               <p className="text-[24px] text-left leading-[32px] font-semibold font-[Helvetica] mb-[10px]">
-                Bring back their memories
+                
               </p>
               <div>
               </div>
@@ -229,7 +234,7 @@ const PreviewShow_two = () => {
           <div className="relative overflow-hidden rounded-[20px] group">
             <Image
               className="w-full h-auto rounded-[20px] object-cover"
-              src="/photos/big screen/2025/Rectangle 22.png"
+              src="./assets/inclusive events_ 430x510  = 5.jpg"
               alt=""
               width={387}
               height={217}
@@ -239,7 +244,7 @@ const PreviewShow_two = () => {
               style={{ background: 'linear-gradient(2deg, rgba(129, 129, 129, 0.5), rgba(0, 0, 0, 0.5))' }}
             >
               <p className="text-[24px] text-left leading-[32px] font-semibold font-[Helvetica] mb-[10px]">
-                Bring back their memories
+                
               </p>
               <div>
               </div>
@@ -303,12 +308,12 @@ const PreviewShow_two = () => {
 
         <div className="md:mb-[40px] mb-[29px] text-md:center text-left">Mission <span className="text-buttonCustomColor">Eco-Care</span></div>
 
-        <div className="md:grid lg:grid-cols-3 grid-cols-1 gap-5 mb-[157px] hidden">
+        <div className="md:grid lg:grid-cols-3 grid-cols-1 gap-5 mb-[0px] hidden">
 
           <div className="relative overflow-hidden rounded-[20px] group">
             <Image
               className="w-full h-auto rounded-[20px] object-cover"
-              src="/photos/big screen/2025/Rectangle 22.png"
+              src="./assets/inclusive events_ 430x510  = 2.jpg"
               alt=""
               width={387}
               height={217}
@@ -318,7 +323,7 @@ const PreviewShow_two = () => {
               style={{ background: 'linear-gradient(2deg, rgba(129, 129, 129, 0.5), rgba(0, 0, 0, 0.5))' }}
             >
               <p className="text-[24px] text-left leading-[32px] font-semibold font-[Helvetica] mb-[10px]">
-                Bring back their memories
+                
               </p>
               <div>
               </div>
@@ -327,7 +332,7 @@ const PreviewShow_two = () => {
           <div className="relative overflow-hidden rounded-[20px] group">
             <Image
               className="w-full h-auto rounded-[20px] object-cover"
-              src="/photos/big screen/2025/Rectangle 22.png"
+              src="./assets/inclusive events_ 430x510 =1.jpg"
               alt=""
               width={387}
               height={217}
@@ -337,14 +342,14 @@ const PreviewShow_two = () => {
               style={{ background: 'linear-gradient(2deg, rgba(129, 129, 129, 0.5), rgba(0, 0, 0, 0.5))' }}
             >
               <p className="text-[24px] text-left leading-[32px] font-semibold font-[Helvetica] mb-[10px]">
-                Bring back their memories
+                
               </p>
               <div>
               </div>
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-[20px] group">
+          {/* <div className="relative overflow-hidden rounded-[20px] group">
             <Image
               className="w-full h-auto rounded-[20px] object-cover"
               src="/photos/big screen/2025/Rectangle 22.png"
@@ -357,12 +362,12 @@ const PreviewShow_two = () => {
               style={{ background: 'linear-gradient(2deg, rgba(129, 129, 129, 0.5), rgba(0, 0, 0, 0.5))' }}
             >
               <p className="text-[24px] text-left leading-[32px] font-semibold font-[Helvetica] mb-[10px]">
-                Bring back their memories
+                
               </p>
               <div>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
         </div>
