@@ -17,9 +17,7 @@ const Visual = () => {
 
   return (
     <div
-      className="pt-[60px]   xs:px-[32px]
-      
-      lg:hidden
+      className="pt-[60px] xs:px-[32px]
       bg-white font-helvetica"
     >
       <div className="">

@@ -11,12 +11,12 @@ const Gallery = () => {
     e.preventDefault();
   }
   return (
-    <div className="xs:pt-[60px] xs:px-[32px] lg:mt-[150px]">
+    <div className="xs:mt-[60px] xs:px-[32px] lg:mt-[150px]">
       <div>
-        <div className=" grid-col-1 lg:text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[35px]">
+        <div className="grid-col-1 lg:text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[35px]">
         The Gallery of <span className="text-red-600">Durga Puja Art</span>
       </div>
-        <div className="flex justify-center gap-x-[15px] xs:py-[25px] items-center mb-[25px]">
+        <div className="flex justify-center gap-x-[15px] xs:my-[25px] items-center mb-[25px]">
          <button
       onClick={() => handleTabChange(0)}
       className={

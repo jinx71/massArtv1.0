@@ -3,7 +3,7 @@ import Gallery from "@/src/components/Gallery";
 import MasterClass from "@/src/components/MasterClass";
 import Review from "@/src/components/Review";
 
-import Footer from "@/src/components/common/Footer";
+import Footer from "@/src/components/common/FooterOld";
 import HeaderHome from "@/src/components/common/HeaderHome";
 import Concept from "@/src/components/Concept";
 import EventPartener from "@/src/components/EventPartner";
