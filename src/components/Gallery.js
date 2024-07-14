@@ -11,12 +11,12 @@ const Gallery = () => {
     e.preventDefault();
   }
   return (
-    <div className="xs:mt-[60px] xs:px-[32px] lg:mt-[150px]">
+    <div className="xs:px-[32px] lg:mt-[150px] xs:mt-[60px]">
       <div>
-        <div className="grid-col-1 lg:text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[35px]">
+        <div className="grid-col-1 lg:text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold">
         The Gallery of <span className="text-red-600">Durga Puja Art</span>
       </div>
-        <div className="flex justify-center gap-x-[15px] xs:my-[25px] items-center mb-[25px]">
+        <div className="flex justify-center gap-x-[15px] my-[25px] items-center">
          <button
       onClick={() => handleTabChange(0)}
       className={
@@ -130,7 +130,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-        <div className="container mx-auto my-[51px] md:block hidden">
+        <div className="container mx-auto md:block hidden">
         <div className="grid gap-6 md:grid-cols-2 grid-cols-1 w-full">
           <div className="grid grid-flow-row gap-6">
             <Image
@@ -177,7 +177,7 @@ const Gallery = () => {
         <Link href='/gallery'>
          <button
           className="xs:mt-[25px]  xs:text-[12px] xs:leading-[14px] font-helvetica font-bold text-buttonCustomColor border border-buttonCustomColor
-           xs:px-[17px] xs:py-[9px] rounded-full w-full lg:mt-[50px] lg:mb-[150px]"
+           xs:px-[17px] xs:py-[9px] rounded-full w-full lg:my-[50px]"
         >
           Browse More Video
         </button>
