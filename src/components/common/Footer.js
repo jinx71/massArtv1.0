@@ -130,7 +130,7 @@ const Footer = () => {
       <footer className="bg-footerColor text-white  lg:hidden block">
         <div className="mx-[32px]">
 
-          <div className="grid grid-cols-2 gap-[16px]" >
+          <div className="" >
 
           <div className="flex flex-col lg:pt-16 xs:pt-8">
             <div className="grow-0">
@@ -149,7 +149,7 @@ const Footer = () => {
             </div>
 
 
-            <div className="flex flex-col lg:pt-16 xs:pt-[117px]">
+            <div className="flex flex-col lg:pt-16 xs:pt-[20px]">
             <div className="grow-0">
             <h6 className="font-helvetica font-bold text-white xs:text-[24px]">
                   Navigation
@@ -179,7 +179,7 @@ const Footer = () => {
               </nav>
             </div>
 
-            <div className="flex flex-col lg:pt-16 ">
+            <div className="flex flex-col lg:pt-16 xs:pt-[20px]">
             <div className="grow-0">
             <h6 className=" font-helvetica font-bold text-white xs:text-[24px]">
                   Learn More
@@ -202,16 +202,11 @@ const Footer = () => {
                   FAQ
                 </p>
                 </Link>
-                <p className="pt-[10px] text-[14px]  font-helvetica ">
-                  Copyright © 2024 massArt, Designed & Developed Ethically by <span> </span>
-                  <a href="https://www.ethicalden.com/" target="_blank" className="link-hover">
-                    Ethical Den
-                  </a>
-                </p>
+                
               </nav>
             </div>
 
-            <div className="flex flex-col lg:pt-16 ">
+            <div className="flex flex-col lg:pt-16 xs:pt-[20px]">
             <div className="grow-0">
             <h6 className="font-helvetica font-bold text-white xs:text-[24px]">
                   Newsletter
@@ -242,7 +237,12 @@ const Footer = () => {
         </div>
         <hr class="h-px  bg-white"></hr>
         <nav>
-                
+                <p className="pt-[10px] text-[14px]  font-helvetica text-center">
+                  Copyright © 2024 massArt, Designed & Developed Ethically by <span> </span>
+                  <a href="https://www.ethicalden.com/" target="_blank" className="link-hover">
+                    Ethical Den
+                  </a>
+                </p>
               </nav>
       </footer>
     </>

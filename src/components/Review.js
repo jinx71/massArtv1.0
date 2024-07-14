@@ -65,10 +65,10 @@ const Review = () => {
   };
 
   return (
-    <div className="relative bg-white overflow-hidden lg:mt-[150px] xs:mt-[60px] lg:px-[120px] xs:px-[36px]">
+    <div className="relative bg-white overflow-hidden lg:mt-[150px] xs:mt-[60px]  lg:px-[120px] xs:px-[36px]">
       <div
       className="  
-         xs:px-[32px]flex flex-col justify-center lg:flex-row "
+         xs:px-[32px]flex flex-col justify-center lg:flex-row xs:mb-[25px] lg:mb-[50px]"
     >
       <h1 className="xs:text-[24px] lg:text-[42px] leading-[3rem] w-full text-center  font-bold font-helvetica">
        Customer's {" "}
@@ -77,7 +77,7 @@ const Review = () => {
 
       
     </div>
-      <div className="pt-[50px]">
+      <div className="">
         <Slider {...settings}>
           {testimonials.map((testimonial) => (
            

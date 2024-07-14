@@ -77,7 +77,7 @@ const TwoZeroTwoThree = () => {
             Preview Show <span className="text-red-600">2023</span>
           </div>
 
-          <div className="md:hidden block font-[Helvetica] lg:text-[50px] lg:leading-[56px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold mb-[20px]">
+          <div className="md:hidden block font-[Helvetica] lg:text-[42px] lg:leading-[56px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold mb-[20px]">
           <span className="text-red-600">What</span> Is Durga Puja Art
           </div>
 
@@ -129,7 +129,7 @@ const TwoZeroTwoThree = () => {
       </div>
 
       <div className="md:grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[20px] gap-7 lg:mb-[157px] mb-7 hidden">
-        <div className="font-[Helvetica] lg:text-[50px] lgleading-[59px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold">
+        <div className="font-[Helvetica] lg:text-[42px] lgleading-[59px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold">
           Selected Art <span className="text-red-600"> <br className="md:block hidden" /> Venue </span>
         </div>
         <div>
@@ -265,7 +265,7 @@ const TwoZeroTwoThree = () => {
       </div>
 
       {/* show on mobile */}
-      <div className="md:hidden block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[25px]">
+      <div className="md:hidden block font-[Helvetica] md:text-[42px] text-[24px] font-bold mb-[25px]">
         Selected Art <span className="text-red-600">Venue</span>
       </div>
 

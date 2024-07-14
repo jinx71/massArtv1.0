@@ -172,7 +172,7 @@ const Contact = () => {
   return (
     <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto ms-[38px] lg:ms-[100px] lg:me-[100px] me-[38px] grid grid-cols lg:mt-[150px] mt-[50px]">
       <div className="flex flex-col bg-gray-100 p-8 rounded-[10px]">
-        <div className="lg:text-[50px] lg:leading-[56px] text-[24px] leading-[36px] font-bold mb-[35px] text-buttonCustomColor">
+        <div className="lg:text-[42px] lg:leading-[56px] text-[24px] leading-[36px] font-bold mb-[35px] text-buttonCustomColor">
           Get in Touch
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[50px] gap-[27px] md:mb-8 mb-6 md:text-[24px] md:leading-[30px] text-[12px] leading-[30px]">

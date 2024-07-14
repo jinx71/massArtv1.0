@@ -76,7 +76,7 @@ const AboutUs = () => {
             />
           </div>
           <div>
-            <div className="font-[Helvetica] lg:text-[50px] lg:leading-[56px] md:text-[36px] md:leading-[42px] text-[24px] font-bold md:mb-[27px] md-mt-0 mt-[11px] mb-[11px]">
+            <div className="font-[Helvetica] lg:text-[42px] lg:leading-[56px] md:text-[36px] md:leading-[42px] text-[24px] font-bold md:mb-[27px] md-mt-0 mt-[11px] mb-[11px]">
               <span className="text-red-600">Who</span> we are
             </div>
             <div className="text-[12px] leading-[24px] md:text-[15px] xl:text-[18px] 2xl:text-[12px]">

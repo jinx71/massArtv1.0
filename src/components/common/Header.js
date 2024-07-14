@@ -215,7 +215,7 @@ const Header = () => {
          
             </div>
           </div>
-          <div className="flex space-x-[10px] text-white pt-[39px] text-[24px] justify-center ">
+          <div className="flex space-x-[10px] text-white pt-[39px] text-[24px] justify-center">
             
             <a href="https://www.facebook.com/durgapujamassart/" passHref={true} target={"_blank"}rel={"noreferrer"}>
               <CiFacebook />
@@ -255,7 +255,7 @@ const Header = () => {
 
               <div className="md:p-5 p-[20px] bg-[#D9D9D9] rounded-[10px]">
 
-                <div className="font-[Helvetica] md:text-[50px] md:leading-[59px] text-[24px] leading-[33px] font-bold mb-[20px]">
+                <div className="font-[Helvetica] md:text-[42px] md:leading-[59px] text-[24px] leading-[33px] font-bold mb-[20px]">
                   <span className="text-red-600">ticket </span> options will be available soon.
                 </div>
                 <p className='md:text-[18px] md:leading-[30px] text-[13px] leading-[20px] mb-[27px]'>more ticket options including student concession are available. please call +91 8420460550</p>

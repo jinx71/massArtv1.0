@@ -140,7 +140,7 @@ const PreviewShow_one = () => {
         <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
         <div className="relative grid md:grid-cols-3 grid-cols-1 p-[33px] md:py-[75px] py-[18px] items-center">
           <div className="col-span-2 lg:mx-[150px] text-white">
-            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
+            <span className="text-buttonCustomColor md:text-[42px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
             <div className="md:mt-[15px] mt-[5px] md:text-[18px] md:leading-[30px] text-[13px] leading-[22px] text-white">
               Ticket options will be available soon. More ticket options including student concession are available. Please Call +91 8420460550
             </div>
@@ -166,7 +166,7 @@ const PreviewShow_one = () => {
         <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
         <div className="relative grid md:grid-cols-3 grid-cols-1 p-[33px] md:py-[75px] py-[18px] items-center">
           <div className="col-span-2 lg:mx-[150px] text-white">
-            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
+            <span className="text-buttonCustomColor md:text-[42px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
             <div className="md:mt-[15px] mt-[5px] md:text-[18px] md:leading-[30px] text-[13px] leading-[22px] text-white">
               Ticket options will be available soon. More ticket options including student concession are available. Please Call +91 8420460550
             </div>
@@ -192,7 +192,7 @@ const PreviewShow_one = () => {
         <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
         <div className="relative grid md:grid-cols-3 grid-cols-1 p-[33px] md:py-[75px] py-[18px] items-center">
           <div className="col-span-2 lg:mx-[150px] text-white">
-            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
+            <span className="text-buttonCustomColor md:text-[42px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
             <div className="md:mt-[15px] mt-[5px] md:text-[18px] md:leading-[30px] text-[13px] leading-[22px] text-white">
               Ticket options will be available soon. More ticket options including student concession are available. Please Call +91 8420460550
             </div>
@@ -217,7 +217,7 @@ const PreviewShow_one = () => {
         <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
         <div className="relative grid md:grid-cols-3 grid-cols-1 p-[33px] md:py-[75px] py-[18px] items-center">
           <div className="col-span-2 lg:mx-[150px] text-white">
-            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
+            <span className="text-buttonCustomColor md:text-[42px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
             <div className="md:mt-[15px] mt-[5px] md:text-[18px] md:leading-[30px] text-[13px] leading-[22px] text-white">
               Ticket options will be available soon. More ticket options including student concession are available. Please Call +91 8420460550
             </div>
@@ -304,7 +304,7 @@ const PreviewShow_one = () => {
       {/* getting arround kolkata section */}
 
       <div className=" lg:mt-[150px] bg-[#EFEDED] md:py-20 py-[38px] md:mb-[160px] mb-[60px]">
-        <div className="text-center font-[Helvetica] md:text-[50px] text-[24px] md:leading-[56px] leading-[30px]  font-bold mb-[25px]">
+        <div className="text-center font-[Helvetica] md:text-[42px] text-[24px] md:leading-[56px] leading-[30px]  font-bold mb-[25px]">
           Getting Around<br></br> <span className="text-buttonCustomColor">Kolkata</span>
         </div>
 
@@ -392,7 +392,7 @@ const PreviewShow_one = () => {
 
       {/* where to stay section */}
 
-      <div className="text-center font-[Helvetica] md:text-[50px] text-[24px] md:leading-[56px] leading-[30px] font-bold md:mb-[50px] mb-[28px]">
+      <div className="text-center font-[Helvetica] md:text-[42px] text-[24px] md:leading-[56px] leading-[30px] font-bold md:mb-[50px] mb-[28px]">
         Where To <span className="text-buttonCustomColor">Stay?</span>
       </div>
 
@@ -523,7 +523,7 @@ const PreviewShow_one = () => {
 
               <div className="md:p-5 p-[20px] bg-[#D9D9D9] rounded-[10px]">
 
-                <div className="font-[Helvetica] md:text-[50px] md:leading-[59px] text-[24px] leading-[33px] font-bold mb-[20px]">
+                <div className="font-[Helvetica] md:text-[42px] md:leading-[59px] text-[24px] leading-[33px] font-bold mb-[20px]">
                   <span className="text-red-600">Ticket </span> Options Will Be Available Soon.
                 </div>
                 <p className='md:text-[18px] md:leading-[30px] text-[13px] leading-[20px] mb-[27px]'>More ticket options including student concession are available. Please Call +91 8420460550</p>

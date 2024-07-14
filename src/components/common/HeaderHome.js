@@ -178,7 +178,7 @@ const HeaderHome = () => {
    
     text-black font-helvetica  h-[450px] bg-gradient-to-b from-[#f2f3f300] to-[#121617]"
       >
-        <div className="flex items-center justify-center">
+        <div className="flex items-end justify-center pb-8">
           {/* <div className="">
             <h1 className="xs:text-[36px] xs:leading-[40px] text-white font-helvetica font-bold xs:pb-[27px]">
               Witness Bengal
@@ -237,7 +237,7 @@ const HeaderHome = () => {
             <div className="relative p-4 w-full max-w-2xl max-h-full">
               <div className="relative shadow">
                 <div className="md:p-5 p-[20px] bg-[#D9D9D9] rounded-[10px]">
-                  <div className="font-[Helvetica] md:text-[50px] md:leading-[59px] text-[24px] leading-[33px] font-bold mb-[20px]">
+                  <div className="font-[Helvetica] md:text-[42px] md:leading-[59px] text-[24px] leading-[33px] font-bold mb-[20px]">
                     <span className="text-red-600">ticket </span> options will
                     be available soon.
                   </div>
