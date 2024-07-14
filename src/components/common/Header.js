@@ -33,7 +33,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="relative xs:h-[80vh]"
+    <div className="relative xs:h-[90vh]"
     style={{backgroundImage: `url(${bg.src})`,
             backgroundSize : 'cover',
             backgroundPosition: 'center'}}>

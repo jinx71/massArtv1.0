@@ -55,7 +55,7 @@ const AboutUs = () => {
   return (
     <div>
 
-      <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[123px] xl:me-[123px] lg:me-[100px] lg:ms-[100px] me-[30px] ms-[30px] lg:mt-[150px]">
+      <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[123px] xl:me-[123px] lg:me-[100px] lg:ms-[100px] me-[30px] ms-[30px]">
         {/* <div className="flex flex-col lg:flex-row md:gap-[106px] gap-[10px] lg:mb-[160px] md:mb-[130px] mb-10">
           <div className="lg:block hidden">
             <Image
@@ -89,15 +89,15 @@ const AboutUs = () => {
             </div>
           </div>
         </div> */}
-<div className="xs:pt-[60px] bg-white font-helvetica">
-      <div className="flex flex-col lg:flex-row-reverse justify-center lg:gap-16">
+<div className=" bg-white font-helvetica">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-center lg:gap-16 xs:mt-[60px] lg:mt-[150px]">
       <div className="lg:w-1/2">
-        <h1 className="xs:text-[24px] lg:text-[42px] xs:leading-[36px] font-helvetica font-bold xs:pb-[15px]">
+        <h1 className="xs:text-[24px] lg:text-[42px] xs:leading-[36px] font-helvetica font-bold">
           Who
           <span className="text-buttonCustomColor "> We Are </span>
         </h1>
         <p
-          className=" font-normal font-helvetica xs:text-[12px] xs:leading-[18px] xs:pb-[25px] lg:text-[16px] lg:pt-10
+          className=" font-normal font-helvetica xs:text-[12px] xs:leading-[20px] xs:pb-[25px] lg:text-[16px] lg:pt-10
         "
         >
           Durga puja is bengal’s biggest festival that takes place over a week
@@ -127,7 +127,7 @@ const AboutUs = () => {
       </div>
     </div>
         <div>
-          <div className="lg:mt-[150px] xs:mt-[60px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] my-[32px] mb-[32px]">
+          <div className="lg:mt-[150px] xs:mt-[60px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] my-[32px] mb-[15px]">
             <span className="text-red-600">What</span> We Do
           </div>
 
@@ -338,7 +338,7 @@ const AboutUs = () => {
       </div>
 
       
-      <div className=" lg:mt-[150px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] ml-7 py-[32px] xs:mt-[60px] xs:mb-[25px]" >
+      <div className=" lg:mt-[150px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] ml-7 xs:mt-[60px] xs:mb-[25px]" >
       A <span className="text-red-600">Non-Profit</span> Organization Conceived In <span className="text-red-600">June 2022 </span>
           </div>
 
